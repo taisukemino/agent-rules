@@ -127,6 +127,10 @@ if (isPendingState) {
 - Follow consistent file structure with components, services, utils folders
 - Maintain consistent architecture patterns across the codebase
 
+# Commit Messages
+- Keep it one-line
+- Do not unnecessarily mention Claude Code as it is already present in GitHub if used
+
 # Documentation Standards
 
 - Update `README.md` when new features are added, dependencies change, or setup steps are modified
