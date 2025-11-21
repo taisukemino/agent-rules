@@ -1,0 +1,1 @@
+Rules for LLM agents. I just use CLAUDE.md. Claude Code automatically detects the context and uses it. When I use Cursor Editor, I turn on the settings to include the context. 
