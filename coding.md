@@ -27,6 +27,21 @@
 - Use explaining variables instead of comments when possible
 - YAGNI (You Aren't Gonna Need It): Don't write code before you need it. Avoid overly generic code and "we might need it later" thinking.
 
+  **YAGNI Example**:
+
+  ```typescript
+  // Not YAGNI: Adds optional params for "flexibility" before needed
+  function fetchData(url: string, headers?: Record<string, string>, timeout?: number) {
+    // ...
+  }
+
+  // YAGNI: Only add parameters you actually need now
+  function fetchData(url: string) {
+    // ...
+  }
+  ```
+  Prefer writing the function with only the required parameters. Only add parameters (like `headers`, `timeout`) when and if there is a real use-case.
+
 ## Example: Explaining Variables
 
 ```typescript
