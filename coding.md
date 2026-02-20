@@ -164,7 +164,7 @@
 # Commit Messages
 
 - Keep it one-line
-- Do not unnecessarily mention Claude Code as it is already present in GitHub if used
+- Do not add "Co-Authored-By" lines to commit messages unnecessarily as it is already present in GitHub if used
 
 ---
 
